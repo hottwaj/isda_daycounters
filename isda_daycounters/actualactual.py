@@ -5,7 +5,7 @@ ISDA Actual/Actual day count convention.
 Implemented according to 2006 ISDA definition:
 http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf
 """
-
+from __future__ import division  #use python3-style division to avoid integer division typos
 import calendar
 import datetime
 
